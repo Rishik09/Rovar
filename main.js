@@ -22,7 +22,7 @@ function uploadrover(){
 }
 window.addEventListener("keydown",Mykeydown);
 function Mykeydown(e){
-    keyPress=e.KeyCode;
+    keyPress=e.keyCode;
     console.log(keyPress);
     if(keyPress=="38"){
         up();
